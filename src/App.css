@@ -1,6 +1,21 @@
 section.pricing {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+  margin: 50px;
+
+}
+.font-card{
+  margin:15px 0px;
+  
+}
+.icon{
+  margin: 0px 10px;
+}
+.header {
+  background-color: rgb(136, 208, 208);
+  text-align: center;
+  font-size: 50px;
+  margin: 0px 20px 40px 20px;
 }
 
 .pricing .card {
