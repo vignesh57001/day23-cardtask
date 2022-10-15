@@ -1,8 +1,6 @@
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Card from "./Card";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaughWink } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   var cardDetails = [
