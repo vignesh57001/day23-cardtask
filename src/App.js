@@ -4,7 +4,7 @@ import Card from "./Card";
 
 function App() {
   var cardDetails = [
-    {
+    {}
       planName: "Free",
       price: 0,
       features: [
