@@ -8,7 +8,7 @@ function Card(props) {
                 <div className="card-body">
                     <h5 className="card-title text-muted text-uppercase text-center">{props.card.planName}</h5>
                     <h6 className="card-price text-center">${props.card.price}<span className="period">/month</span></h6>
-                    <hr />
+                    <hr/>
 
 
                     {
