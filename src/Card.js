@@ -12,6 +12,7 @@ function Card(props) {
 
 
                     {
+                        
                         props.card.features.map((item) => {
                             return item.isEnabled? <div className="font-card"><FontAwesomeIcon icon={faCheck} className="icon" /> <strong>{item.name}</strong></div>:<div className="font-card text-muted"><FontAwesomeIcon icon={faXmark} className="icon" /> {item.name}</div>
                         })
